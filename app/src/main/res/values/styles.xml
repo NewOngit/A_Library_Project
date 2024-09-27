@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="Theme.Material3.Light" >
+        <item name="android:windowAnimationStyle">@style/custom_style</item>
+        
+    </style>
+    
+    <style name="custom_style" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_in</item>
+    </style>
+</resources>
